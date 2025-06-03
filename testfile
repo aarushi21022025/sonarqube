@@ -1,0 +1,12 @@
+public class DummyCode {
+    public static void main(String[] args) {
+        int unusedVariable = 42; // Unused variable
+        System.out.println("Hello, SonarQube!"); // Hardcoded string
+
+        try {
+            int result = 10 / 0; // Division by zero
+        } catch (Exception e) {
+            // Empty catch block
+        }
+    }
+}
